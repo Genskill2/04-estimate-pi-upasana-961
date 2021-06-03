@@ -42,13 +42,12 @@ float mc_pi(int n) {
   int c = 0;
   float pi;
   float x, y;
-  for (int i = 0; i<n; i++) {
+  for (int i = 0; i<n; ++i) {
     float x = frandom();
     float y = frandom();
     float z = x*x + y*y;
     if (z<=1)
-    {
-      c += 1;
+      c = c + 1;
     }
     pi = (double) (c*4)/n;
     return pi;
