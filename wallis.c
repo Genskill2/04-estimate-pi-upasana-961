@@ -33,4 +33,6 @@ float wallis_pi(int n)
   }
   return (2*w);
 }
-  
+ git add
+ git commit
+ git push
